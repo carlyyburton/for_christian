@@ -5,3 +5,7 @@ function yes() {
 function no() {
   window.location.href = "no.html";
 }
+
+function home() {
+  window.location.href = "index.html";
+}

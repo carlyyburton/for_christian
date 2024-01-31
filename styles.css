@@ -2,18 +2,39 @@
   margin: 0;
 }
 
-.container{
-  vertical-align: middle;
+body{
+  background-image: url("images/background.jpg");
+  background-repeat: repeat;
+}
+
+.image-container{
+  padding-top: 30px;
+}
+
+img{
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.emoji{
+  box-sizing: border-box;
+  border: 8px double #FF8FAB;
+  border-radius: 20px;
 }
 
 .title{
+  padding-top: 10px;
   text-align: center;
-  color: darkmagenta;
+  color: #A94064;
 }
 
 .button-container{
+  padding-top: 10px;
   display: flex;
-  padding: 15px;
+  gap: 5px;
   justify-content: center;
 
 }
