@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+}
+
+.container{
+  vertical-align: middle;
+}
+
+.title{
+  text-align: center;
+  color: darkmagenta;
+}
+
+.button-container{
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+
+}
